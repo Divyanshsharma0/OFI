@@ -1,0 +1,18 @@
+# Exclude the docs folder
+/docs/
+
+# Exclude the quick start folder
+QUICK_START.md
+run.ps1
+
+# Exclude the virtual environment folder
+.venv/
+
+# Exclude unused datasets
+!dataset/cost_breakdown.csv
+!dataset/customer_feedback.csv
+!dataset/delivery_performance.csv
+!dataset/orders.csv
+!dataset/routes_distance.csv
+!dataset/vehicle_fleet.csv
+!dataset/warehouse_inventory.csv
