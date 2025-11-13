@@ -1,4 +1,4 @@
-# 🚚 NexGen Logistics - Delivery Delay Prediction System
+# NexGen Logistics - Delivery Delay Prediction System
 
 A comprehensive data-driven Streamlit application for predicting delivery delays and optimizing logistics operations.
 
