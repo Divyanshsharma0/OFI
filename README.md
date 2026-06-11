@@ -1,14 +1,14 @@
-# NexGen Logistics - Delivery Delay Prediction System
+# Delivery Delay Prediction System
 
 A comprehensive data-driven Streamlit application for predicting delivery delays and optimizing logistics operations.
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 NexGen Logistics is facing delivery delays caused by traffic, carrier issues, and inefficient fleet management. This application helps predict which orders are at risk of delay and suggests corrective actions.
 
-## ✨ Features
+##  Features
 
-### 📈 Overview Dashboard
+### Overview Dashboard
 - **Real-time KPIs**: Total orders, on-time delivery percentage, average delay, customer ratings
 - **Financial Metrics**: Revenue, profit, cost per kilometer
 - **Interactive Visualizations**:
@@ -19,7 +19,7 @@ NexGen Logistics is facing delivery delays caused by traffic, carrier issues, an
   - Quality issues breakdown
   - Customer rating distribution
 
-### 🎯 Delay Prediction
+### Delay Prediction
 - **Machine Learning Model**: Random Forest Classifier trained on historical data
 - **Performance Metrics**: Accuracy, Precision, Recall, F1 Score, ROC AUC
 - **Feature Importance**: Identify key factors affecting delays
@@ -31,7 +31,7 @@ NexGen Logistics is facing delivery delays caused by traffic, carrier issues, an
   - Traffic mitigation strategies
 - **At-Risk Orders**: Identify current orders with high delay probability
 
-### 📊 Deep Analytics
+###  Deep Analytics
 - **Trends Analysis**:
   - Weekly and monthly performance trends
   - Day-of-week patterns
@@ -55,13 +55,13 @@ NexGen Logistics is facing delivery delays caused by traffic, carrier issues, an
   - Quality issue impact analysis
   - Feature correlation heatmap
 
-### 🔍 Order Lookup
+###  Order Lookup
 - Search by Order ID, Date Range, Customer Segment, or Route
 - Comprehensive order details
 - Cost breakdown visualization
 - Performance metrics for individual orders
 
-## 📊 Data Sources
+##  Data Sources
 
 The application uses the following CSV files:
 
@@ -79,10 +79,10 @@ The application uses the following CSV files:
 ### Dashboard Navigation
 
 1. **Select Page** from the sidebar:
-   - 📈 Overview Dashboard
-   - 🎯 Delay Prediction
-   - 📊 Deep Analytics
-   - 🔍 Order Lookup
+   -  Overview Dashboard
+   -  Delay Prediction
+   -  Deep Analytics
+   -  Order Lookup
 
 2. **Apply Filters**:
    - Date Range
@@ -91,7 +91,7 @@ The application uses the following CSV files:
 
 ### Making Predictions
 
-1. Go to **🎯 Delay Prediction** page
+1. Go to ** Delay Prediction** page
 2. Scroll to "Predict Delay Risk for New Orders"
 3. Enter order details:
    - Distance, fuel consumption, traffic delay
@@ -106,7 +106,7 @@ The application uses the following CSV files:
 
 ### Analyzing Performance
 
-1. Go to **📊 Deep Analytics** page
+1. Go to ** Deep Analytics** page
 2. Explore different tabs:
    - **Trends**: Time-based performance patterns
    - **Routes**: Geographic and route analysis
@@ -115,12 +115,12 @@ The application uses the following CSV files:
 
 ### Looking Up Orders
 
-1. Go to **🔍 Order Lookup** page
+1. Go to ** Order Lookup** page
 2. Choose search method
 3. Enter search criteria
 4. View detailed order information and metrics
 
-## 🧠 Machine Learning Model
+##  Machine Learning Model
 
 ### Algorithm
 - **Random Forest Classifier** with 100 estimators
@@ -146,15 +146,15 @@ The application uses the following CSV files:
 - Cross-validation with stratification
 - Performance metrics: Accuracy, Precision, Recall, F1, ROC AUC
 
-## 📈 Key Insights & Metrics
+## Key Insights & Metrics
 
 ### KPIs Tracked
-- ✅ On-Time Delivery Percentage
-- ⏱️ Average Delay (days)
-- ⭐ Customer Rating (1-5)
-- 💰 Revenue and Profit
-- 🚗 Cost per Kilometer
-- ⚠️ Delayed Orders Count
+-  On-Time Delivery Percentage
+-  Average Delay (days)
+-  Customer Rating (1-5)
+-  Revenue and Profit
+-  Cost per Kilometer
+-  Delayed Orders Count
 
 ### Delay Risk Factors
 1. **Distance**: Longer routes have higher delay risk
@@ -163,7 +163,7 @@ The application uses the following CSV files:
 4. **Priority Level**: Express orders need special handling
 5. **Route Complexity**: Combined measure of distance, traffic, and fuel consumption
 
-## 🛠️ Technical Stack
+##  Technical Stack
 
 - **Frontend**: Streamlit
 - **Data Processing**: Pandas, NumPy
@@ -171,7 +171,7 @@ The application uses the following CSV files:
 - **Machine Learning**: Scikit-learn
 - **Modeling**: Random Forest, Logistic Regression (optional)
 
-## 📝 Feature Engineering
+##  Feature Engineering
 
 The application performs extensive feature engineering:
 
@@ -183,7 +183,7 @@ The application performs extensive feature engineering:
 6. **Risk Factors**: distance_risk, route_complexity
 7. **Quality Metrics**: has_quality_issue, carrier_reliability
 
-## 🎨 Customization
+##  Customization
 
 ### Modify Filters
 Edit the sidebar section in `app.py` to add/remove filters
@@ -198,7 +198,7 @@ Add charts in the respective page functions:
 ### Adjust Model Parameters
 Modify the `train_model()` function in the prediction section
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: Data Not Loading
 - Verify CSV files are in the `dataset/` folder
@@ -218,7 +218,7 @@ pip install -r requirements.txt --upgrade
 streamlit run app.py --server.port 8502
 ```
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - [ ] Real-time data integration
 - [ ] Advanced ML models (XGBoost, Neural Networks)
@@ -229,6 +229,6 @@ streamlit run app.py --server.port 8502
 - [ ] Driver performance tracking
 - [ ] Demand forecasting
 
-## 📄 License
+##  License
 
 This project is created for educational and business analytics purposes.
